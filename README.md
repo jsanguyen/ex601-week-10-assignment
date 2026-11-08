@@ -23,7 +23,7 @@ The bug changed `hours_before >= 24` to `hours_before > 24` in `fee_calculator.p
 
 **Green-again screenshot:**
 
-_(paste screenshot here)_
+![Green again: "Fixing off-by-one bug" #5 succeeded on push to main](Screenshot%202026-11-08%20163812.png)
 
 **In one sentence: what would this bug have cost if there were no pipeline?**
 
