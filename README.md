@@ -1,5 +1,9 @@
 # EX601 Week 10 Assignment — CI with GitHub Actions
 
+**Repository:** [https://github.com/jsanguyen/ex601-week-10-assignment](https://github.com/jsanguyen/ex601-week-10-assignment)
+
+**CI runs:** [https://github.com/jsanguyen/ex601-week-10-assignment/actions](https://github.com/jsanguyen/ex601-week-10-assignment/actions)
+
 ## Submission 1: Green run
 
 **Green run screenshot:**
@@ -13,7 +17,7 @@ A push of a commit to `main` started this run
 
 ## Submission 2: Red run, then green again
 
-**My prediction of which test would fail:** `test_boundary_exactly_24_hours_is_free` — **was I right?** _(yes/no)_
+**My prediction of which test would fail:** `test_boundary_exactly_24_hours_is_free` — **was I right?** Yes
 
 The bug changed `hours_before >= 24` to `hours_before > 24` in `fee_calculator.py`, so cancelling exactly 24 hours ahead was charged $25 instead of being free.
 
